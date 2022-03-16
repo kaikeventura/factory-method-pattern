@@ -1,4 +1,9 @@
-package com.kaikeventura.inventory;
+package com.kaikeventura.inventory.implementation;
+
+import com.kaikeventura.inventory.base.Hardware;
+import com.kaikeventura.inventory.base.Inventory;
+import com.kaikeventura.inventory.domain.DesktopHardware;
+import com.kaikeventura.inventory.domain.HardwareType;
 
 import java.util.Arrays;
 import java.util.EnumMap;

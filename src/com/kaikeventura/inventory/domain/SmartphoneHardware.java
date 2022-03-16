@@ -1,4 +1,6 @@
-package com.kaikeventura.inventory;
+package com.kaikeventura.inventory.domain;
+
+import com.kaikeventura.inventory.base.Hardware;
 
 public class SmartphoneHardware implements Hardware {
 

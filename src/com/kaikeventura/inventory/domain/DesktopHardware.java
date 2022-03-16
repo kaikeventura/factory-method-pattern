@@ -1,10 +1,12 @@
-package com.kaikeventura.inventory;
+package com.kaikeventura.inventory.domain;
 
-public class NotebookHardware implements Hardware {
+import com.kaikeventura.inventory.base.Hardware;
+
+public class DesktopHardware implements Hardware {
 
     private final HardwareType hardwareType;
 
-    public NotebookHardware(HardwareType hardwareType) {
+    public DesktopHardware(HardwareType hardwareType) {
         this.hardwareType = hardwareType;
     }
 
@@ -15,7 +17,7 @@ public class NotebookHardware implements Hardware {
 
     @Override
     public String toString() {
-        return "NotebookHardware{" +
+        return "DesktopHardware{" +
                 "hardwareType=" + hardwareType +
                 '}';
     }

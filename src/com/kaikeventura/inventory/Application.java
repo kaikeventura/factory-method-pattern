@@ -1,5 +1,10 @@
 package com.kaikeventura.inventory;
 
+import com.kaikeventura.inventory.domain.HardwareType;
+import com.kaikeventura.inventory.implementation.DesktopInventory;
+import com.kaikeventura.inventory.implementation.NotebookInventory;
+import com.kaikeventura.inventory.implementation.SmartphoneInventory;
+
 public class Application {
 
     public static void main(String[] args) {

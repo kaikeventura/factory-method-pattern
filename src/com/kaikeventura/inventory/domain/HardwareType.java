@@ -1,4 +1,4 @@
-package com.kaikeventura.inventory;
+package com.kaikeventura.inventory.domain;
 
 public enum HardwareType {
     CPU,
