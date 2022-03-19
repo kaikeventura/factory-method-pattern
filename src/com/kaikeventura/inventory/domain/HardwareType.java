@@ -4,6 +4,5 @@ public enum HardwareType {
     CPU,
     GPU,
     RAM_MEMORY,
-    MOTHER_BOARD,
-    COOLER
+    MOTHER_BOARD
 }
